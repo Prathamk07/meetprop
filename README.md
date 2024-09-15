@@ -8,4 +8,35 @@ MeetProps is an AI tool for generation of Agenda through the Pre-Meeting documen
 - pip
 
 # Installation
+Flask 
 ```
+cd backend 
+pip install flask dotenv pymongo flask_cors flask_pymongo --user
+```
+Install Additional dependencies for AI model
+```
+pip install fitz numpy scipy tensorflow pytesseract transformers pydub vosk moviepy --user
+```
+Install Google Generative AI for the prompt based outputs
+```
+pip install google-generative-ai --user
+cd ..
+```
+
+Installing React Dependencies
+```
+cd frontend
+npm i
+```
+
+# Using
+```
+cd backend
+python app.py
+```
+```
+cd frontend
+npm start
+```
+
+
